@@ -1,0 +1,116 @@
+{
+  "type": "object",
+  "required": [
+    "sections"
+  ],
+  "properties": {
+    "sections": {
+      "type": "array",
+      "description": "List of named groups of projects.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "projects"
+        ],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Title of this section."
+          },
+          "projects": {
+            "type": "array",
+            "description": "List of projects in this section.",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "status",
+                "tags",
+                "techStack",
+                "summary"
+              ],
+              "properties": {
+                "featured": {
+                  "type": "boolean",
+                  "description": "If true, star this project and show it first."
+                },
+                "name": {
+                  "type": "string",
+                  "description": "Name of this project."
+                },
+                "publishYear": {
+                  "type": "string",
+                  "description": "Year this project was published."
+                },
+                "status": {
+                  "type": "string",
+                  "description": "Development status of this project.",
+                  "enum": [
+                    "wip",
+                    "maintained",
+                    "archived",
+                    "retired"
+                  ]
+                },
+                "summary": {
+                  "type": "string",
+                  "description": "Brief summary of what this project is."
+                },
+                "tags": {
+                  "type": "array",
+                  "description": "List of tags for this project.",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "website",
+                      "web-api",
+                      "library",
+                      "package",
+                      "ts4-mod",
+                      "ts4-tool",
+                      "discord-bot",
+                      "vscode-ext",
+                      "desktop-app",
+                      "mobile-app",
+                      "game"
+                    ]
+                  }
+                },
+                "techStack": {
+                  "type": "array",
+                  "description": "Tech stack used for this project.",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "oldTechStack": {
+                  "type": "array",
+                  "description": "Things that used to be a part of the tech stack.",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "repoLink": {
+                  "type": "string",
+                  "description": "Link to source code on GitHub."
+                },
+                "webLink": {
+                  "type": "string",
+                  "description": "Link where this project can be viewed online."
+                },
+                "spotlightFile": {
+                  "type": "string",
+                  "description": "Name of HTML file that contains spotlight info."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

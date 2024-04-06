@@ -1,0 +1,319 @@
+{
+  "type": "object",
+  "required": [
+    "bio",
+    "about",
+    "experience",
+    "projects",
+    "skills"
+  ],
+  "properties": {
+    "bio": {
+      "type": "object",
+      "description": "Information for the bio section.",
+      "additionalProperties": false,
+      "required": [
+        "picture",
+        "heading",
+        "subheading",
+        "tagline",
+        "socialLinks"
+      ],
+      "properties": {
+        "picture": {
+          "type": "string",
+          "description": "Relative path to picture to use in bio."
+        },
+        "heading": {
+          "type": "string",
+          "description": "Heading of bio. Should be your name."
+        },
+        "subheading": {
+          "type": "string",
+          "description": "Subheading of the bio. Should be your title and company."
+        },
+        "tagline": {
+          "type": "string",
+          "description": "Text that appears under the subheading."
+        },
+        "socialLinks": {
+          "type": "array",
+          "description": "List of links to display below the bio and navigation.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "href",
+              "icon",
+              "name"
+            ],
+            "properties": {
+              "href": {
+                "type": "string",
+                "description": "Value to use in HREF of link."
+              },
+              "icon": {
+                "type": "string",
+                "description": "Name of icon to use for link."
+              },
+              "name": {
+                "type": "string",
+                "description": "Name to use for title and alt text of link."
+              }
+            }
+          }
+        }
+      }
+    },
+    "about": {
+      "type": "object",
+      "description": "Content for the 'About' section.",
+      "additionalProperties": false,
+      "required": [
+        "navName",
+        "headingName",
+        "content",
+        "graphics"
+      ],
+      "properties": {
+        "navName": {
+          "type": "string",
+          "description": "Name to display in navigation for this section."
+        },
+        "headingName": {
+          "type": "string",
+          "description": "Name to display in heading for this section."
+        },
+        "content": {
+          "type": "array",
+          "description": "List of content blocks to display in the about section.",
+          "items": {
+            "type": "array",
+            "description": "List of text segments in a content block.",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalItems": false,
+              "required": [
+                "text"
+              ],
+              "properties": {
+                "text": {
+                  "type": "string",
+                  "description": "Text to display in this segment."
+                },
+                "href": {
+                  "type": "string",
+                  "description": "Optional hyperlink to add to the text."
+                }
+              }
+            }
+          }
+        },
+        "graphics": {
+          "type": "array",
+          "description": "List of graphics to display under the about content.",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "additionalItems": false,
+            "required": [
+              "label",
+              "icon",
+              "alt"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "description": "Primary label to display under icon."
+              },
+              "label2": {
+                "type": "string",
+                "description": "Optional secondary label to display under primary label."
+              },
+              "icon": {
+                "type": "string",
+                "description": "Name of icon to use."
+              },
+              "alt": {
+                "type": "string",
+                "description": "Alt text for icon."
+              }
+            }
+          }
+        }
+      }
+    },
+    "experience": {
+      "type": "object",
+      "description": "Content for the 'Experience' section.",
+      "additionalProperties": false,
+      "required": [
+        "navName",
+        "headingName",
+        "experiences"
+      ],
+      "properties": {
+        "navName": {
+          "type": "string",
+          "description": "Name to display in navigation for this section."
+        },
+        "headingName": {
+          "type": "string",
+          "description": "Name to display in heading for this section."
+        },
+        "experiences": {
+          "type": "array",
+          "description": "List of experiences to display.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "timespan",
+              "mostRecentTitle",
+              "company",
+              "summary"
+            ],
+            "properties": {
+              "timespan": {
+                "type": "string",
+                "description": "Start to end date."
+              },
+              "mostRecentTitle": {
+                "type": "string",
+                "description": "Most recent job title at this company."
+              },
+              "company": {
+                "type": "string",
+                "description": "Name of company."
+              },
+              "formerTitles": {
+                "type": "array",
+                "description": "Optional list of former titles held at this company.",
+                "uniqueItems": true,
+                "items": {
+                  "type": "string"
+                }
+              },
+              "summary": {
+                "type": "string",
+                "description": "Summary of responsibilities and accomplishments in this position."
+              },
+              "projects": {
+                "type": "array",
+                "description": "List of projects worked on at this company.",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "name"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "description": "Name of project."
+                    },
+                    "href": {
+                      "type": "string",
+                      "description": "Optional link to project."
+                    }
+                  }
+                }
+              },
+              "skills": {
+                "type": "array",
+                "description": "List of skills used at this company.",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "allPositionsLink": {
+          "type": "object",
+          "description": "",
+          "additionalProperties": false,
+          "required": [
+            "text",
+            "href"
+          ],
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "Text to display in all positions link."
+            },
+            "href": {
+              "type": "string",
+              "description": "Link to where all positions can be found."
+            }
+          }
+        }
+      }
+    },
+    "projects": {
+      "type": "object",
+      "description": "Content for the 'Projects' section.",
+      "additionalProperties": false,
+      "required": [
+        "navName",
+        "headingName"
+      ],
+      "properties": {
+        "navName": {
+          "type": "string",
+          "description": "Name to display in navigation for this section."
+        },
+        "headingName": {
+          "type": "string",
+          "description": "Name to display in heading for this section."
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "description": "Content for the 'Skills' section.",
+      "additionalProperties": false,
+      "required": [
+        "navName",
+        "headingName",
+        "categories"
+      ],
+      "properties": {
+        "navName": {
+          "type": "string",
+          "description": "Name to display in navigation for this section."
+        },
+        "headingName": {
+          "type": "string",
+          "description": "Name to display in heading for this section."
+        },
+        "categories": {
+          "type": "array",
+          "description": "List of skill categories.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "category",
+              "skills"
+            ],
+            "properties": {
+              "category": {
+                "type": "string",
+                "description": "Name of skill category."
+              },
+              "skills": {
+                "type": "array",
+                "description": "List of skills in this category.",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
