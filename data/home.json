@@ -140,14 +140,12 @@
           }
         ],
         "skills": [
-          "Flutter",
           "Dart",
-          "Xamarin.Forms",
+          "Flutter",
           "C#",
           ".NET",
-          "HTML",
-          "JavaScript",
-          "CSS"
+          "Xamarin.Forms",
+          "HTML / CSS / JS"
         ]
       }
     ]
@@ -161,7 +159,7 @@
     "navName": "Skills",
     "categories": [
       {
-        "category": "Project Domains",
+        "category": "Project Types",
         "skills": [
           "Mobile Apps",
           "Front-End Web",
@@ -175,14 +173,12 @@
       {
         "category": "Programming Languages",
         "skills": [
-          "C#",
           "Dart",
-          "TypeScript",
-          "JavaScript",
+          "C#",
+          "JavaScript / TypeScript",
           "Python",
-          "HTML",
-          "CSS",
-          "SCSS"
+          "CSS / SCSS",
+          "HTML"
         ]
       },
       {
@@ -202,10 +198,10 @@
       {
         "category": "Tools & Services",
         "skills": [
-          "Git",
-          "GitHub",
-          "Cloudflare",
+          "Git / GitHub",
           "Firebase",
+          "Cloudflare",
+          "DigitalOcean",
           "Docker"
         ]
       }
