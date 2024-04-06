@@ -57,7 +57,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/validation",
           "webLink": "https://npmjs.com/package/@s4tk/validation",
-          "summary": "Node.js package for scanning Sims 4 mods for common issues.",
+          "summary": "Node.js package for scanning Sims 4 mods for common issues. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -102,7 +102,7 @@
           "publishYear": "2024",
           "status": "maintained",
           "webLink": "https://frankkmods.com/#/mods/no-lot-taxes",
-          "summary": "Mod for The Sims 4 that removes lot taxes from bills.",
+          "summary": "Mod for The Sims 4 that removes property taxes.",
           "tags": [
             "ts4-mod"
           ],
@@ -162,7 +162,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/s4tk-vscode",
           "webLink": "https://vscode.sims4toolkit.com/",
-          "summary": "VS Code extension for the Sims 4 Toolkit library.",
+          "summary": "VS Code extension for Sims 4 modding powered by the @s4tk library.",
           "tags": [
             "vscode-ext",
             "ts4-tool"
@@ -231,7 +231,7 @@
           "publishYear": "2022",
           "status": "maintained",
           "webLink": "https://sandbox.sims4toolkit.com/#/tutorials",
-          "summary": "Website that offers interactive tutorials to teach you how to use my Sims 4 Toolkit library for Sims 4 modding.",
+          "summary": "Website with guided, interactive tutorials for learning the @s4tk library.",
           "tags": [
             "website",
             "ts4-tool"
@@ -250,7 +250,7 @@
           "status": "maintained",
           "webLink": "https://sandbox.sims4toolkit.com",
           "repoLink": "https://github.com/sims4toolkit/s4tk-sandbox",
-          "summary": "Website that can run scripts using the Sims 4 Toolkit library without having to install Node.js.",
+          "summary": "Website that can run scripts using the @s4tk library right in the browser.",
           "tags": [
             "website",
             "ts4-tool"
@@ -285,7 +285,7 @@
           "publishYear": "2022",
           "status": "maintained",
           "webLink": "https://frankkmods.com/#/mods/bad-translations",
-          "summary": "Esoteric mod for The Sims 4 that puts all text in the game through a translator.",
+          "summary": "Esoteric mod for The Sims 4 that jumbles all text in the game by translating it multiple times.",
           "tags": [
             "ts4-mod"
           ],
@@ -302,7 +302,7 @@
           "status": "maintained",
           "webLink": "https://stbl.sims4toolkit.com",
           "repoLink": "https://github.com/sims4toolkit/stbl-studio-web",
-          "summary": "Online Sims 4 modding tool that helps manage text and localizations for mods.",
+          "summary": "Web app that helps manage text/localizations for Sims 4 mods, powered by the @s4tk library.",
           "tags": [
             "website",
             "ts4-tool"
@@ -321,7 +321,7 @@
           "publishYear": "2022",
           "status": "archived",
           "webLink": "https://pkg.sims4toolkit.com/#/generate",
-          "summary": "Online Sims 4 modding tool that helps generate XML and SimData files.",
+          "summary": "Sims 4 modding tool that generates XML and SimData files in bulk, powered by the @s4tk library.",
           "tags": [
             "website",
             "ts4-tool"
@@ -339,7 +339,7 @@
           "publishYear": "2022",
           "status": "maintained",
           "webLink": "https://frankkmods.com/#/mods/show-sim-info",
-          "summary": "Utility mod for The Sims 4 that shows internal information about sims.",
+          "summary": "Utility mod for The Sims 4 that shows internal data for sims.",
           "tags": [
             "ts4-mod"
           ],
@@ -352,7 +352,7 @@
           "name": "Sims 4 Toolkit Bot",
           "publishYear": "2022",
           "status": "maintained",
-          "summary": "Discord bot that helps mod creators help each other.",
+          "summary": "Bot that helps view and find issues with mods shared on Discord, powered by the @s4tk library.",
           "tags": [
             "discord-bot",
             "ts4-tool"
@@ -370,7 +370,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/pkg-viewer-web",
           "webLink": "https://pkg.sims4toolkit.com/#/view",
-          "summary": "Website that previews Sims 4 package files and scans them for common issues.",
+          "summary": "Website that previews Sims 4 mods and scans them for common issues, powered by the @s4tk library.",
           "tags": [
             "website",
             "ts4-tool"
@@ -407,7 +407,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/images",
           "webLink": "https://npmjs.com/package/@s4tk/images",
-          "summary": "Node.js package for reading and writing Sims 4 image resources.",
+          "summary": "Node.js package for reading and writing Sims 4 image resources. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -424,7 +424,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/extraction",
           "webLink": "https://npmjs.com/package/@s4tk/extraction",
-          "summary": "Node.js package for extracting files from The Sims 4.",
+          "summary": "Node.js package for extracting files from The Sims 4. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -440,7 +440,7 @@
           "publishYear": "2022",
           "status": "maintained",
           "webLink": "https://stbl.sims4toolkit.com/#/tools/pronouns",
-          "summary": "Web-based Sims 4 modding tool that batch fixes mods after a fundamental change to how tokens work for Sim pronouns.",
+          "summary": "Online Sims 4 modding tool that fixes mods that are using outdated pronoun tokens.",
           "tags": [
             "website",
             "ts4-tool"
@@ -459,7 +459,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/compression",
           "webLink": "https://npmjs.com/package/@s4tk/compression",
-          "summary": "Node.js package for compressing Sims 4 mod resources.",
+          "summary": "Node.js package for compressing Sims 4 mod resources. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -476,7 +476,7 @@
           "status": "maintained",
           "webLink": "https://sims4toolkit.com/",
           "repoLink": "https://github.com/sims4toolkit/sims4toolkit.github.io",
-          "summary": "Documentation website for the Sims 4 Toolkit Node.js library.",
+          "summary": "Documentation website for the @s4tk library.",
           "tags": [
             "website",
             "ts4-tool"
@@ -495,7 +495,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/tunables",
           "webLink": "https://npmjs.com/package/@s4tk/tunables",
-          "summary": "Node.js package for assistance in writing Sims 4 tuning files from script.",
+          "summary": "Node.js package for writing Sims 4 tuning files from script. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -512,7 +512,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/models",
           "webLink": "https://npmjs.com/package/@s4tk/models",
-          "summary": "Node.js package for reading and writing binary resources used by The Sims 4.",
+          "summary": "Node.js package for reading and writing binary resources used by The Sims 4. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -529,7 +529,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/xml-dom",
           "webLink": "https://npmjs.com/package/@s4tk/xml-dom",
-          "summary": "Node.js package for XML DOMs, tailored for use with Sims 4 tuning files.",
+          "summary": "Node.js package for XML DOMs, tailored for use with Sims 4 tuning files. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -546,7 +546,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/hashing",
           "webLink": "https://npmjs.com/package/@s4tk/hashing",
-          "summary": "Node.js package for FNV hashing.",
+          "summary": "Node.js package for FNV hashing. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -563,7 +563,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/encoding",
           "webLink": "https://npmjs.com/package/@s4tk/encoding",
-          "summary": "Node.js package for easily encoding binary files.",
+          "summary": "Node.js package for easily encoding binary files. Part of the @s4tk library.",
           "tags": [
             "package",
             "ts4-tool"
@@ -614,7 +614,7 @@
           "name": "Frankkbot",
           "publishYear": "2021",
           "status": "maintained",
-          "summary": "Discord bot that offers automated support in my Sims 4 modding Discord server.",
+          "summary": "Bot that offers automated support and protections for my Sims 4 Discord server.",
           "tags": [
             "discord-bot"
           ],
@@ -629,7 +629,7 @@
           "publishYear": "2021",
           "status": "archived",
           "webLink": "https://legacy.frankkmods.com",
-          "summary": "Modding tool for The Sims 4 that helps manage string table resources for text and localization.",
+          "summary": "Online modding tools for The Sims 4 that help create text/localization resources.",
           "tags": [
             "website",
             "ts4-tool"
@@ -643,10 +643,10 @@
           ]
         },
         {
-          "name": "Oceanic Language Database",
+          "name": "Oceanic Reduplication Database",
           "publishYear": "2021",
           "status": "retired",
-          "summary": "Website that showcases and visualizes the data for my final research project in Linguistics at Northeastern University.",
+          "summary": "Website that showcases the results of my final linguistics research project at Northeastern University.",
           "tags": [
             "website"
           ],
@@ -682,7 +682,7 @@
           "publishYear": "2020",
           "status": "maintained",
           "webLink": "https://frankkmods.com/#/mods/language-barriers",
-          "summary": "Mod for The Sims 4 that adds foreign languages.",
+          "summary": "Mod for The Sims 4 that adds languages, making traveling and socializing more realistic and challenging.",
           "tags": [
             "ts4-mod"
           ],
@@ -710,7 +710,7 @@
           "publishYear": "2020",
           "status": "maintained",
           "webLink": "https://frankkmods.com/#/mods/buy-bits-and-pieces",
-          "summary": "Mod for The Sims 4 that makes it easier to obtain niche resources.",
+          "summary": "Mod for The Sims 4 that makes it easier to obtain some niche resources.",
           "tags": [
             "ts4-mod"
           ],
@@ -781,7 +781,7 @@
           "status": "maintained",
           "repoLink": "https://github.com/frankkulak/frankkulak.github.io",
           "webLink": "https://frankkulak.com",
-          "summary": "Portfolio website showcasing my education, experience, and projects.",
+          "summary": "Portfolio website showcasing my professional experience and personal projects.",
           "tags": [
             "website"
           ],
