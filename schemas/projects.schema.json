@@ -2,6 +2,7 @@
   "type": "object",
   "required": [
     "sections",
+    "compactView",
     "header"
   ],
   "properties": {
@@ -26,6 +27,46 @@
         "body": {
           "type": "string",
           "description": "Text that appears under title."
+        }
+      }
+    },
+    "compactView": {
+      "type": "object",
+      "description": "Settings for the compact view.",
+      "additionalProperties": false,
+      "required": [
+        "skillRemovals",
+        "skillReplacements"
+      ],
+      "properties": {
+        "skillRemovals": {
+          "type": "array",
+          "description": "List of items to remove from the tech stack in compact view. Must be exact matches, including case.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "skillReplacements": {
+          "type": "array",
+          "description": "List of replacements to run on tech stack bubbles in compact view.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "target",
+              "replacement"
+            ],
+            "properties": {
+              "target": {
+                "type": "string",
+                "description": "String to replace. Must be an exact match, including case."
+              },
+              "replacement": {
+                "type": "string",
+                "description": "String to use instead of target."
+              }
+            }
+          }
         }
       }
     },

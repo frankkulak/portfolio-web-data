@@ -5,6 +5,33 @@
     "title": "Project Vault",
     "body": "Explore all the hobby projects I've released – most are still maintained!"
   },
+  "compactView": {
+    "skillRemovals": [
+      "HTML"
+    ],
+    "skillReplacements": [
+      {
+        "target": "JavaScript / TypeScript",
+        "replacement": "JS / TS"
+      },
+      {
+        "target": "Node.js",
+        "replacement": "Node"
+      },
+      {
+        "target": "Vue.js",
+        "replacement": "Vue"
+      },
+      {
+        "target": "TailwindCSS",
+        "replacement": "Tailwind"
+      },
+      {
+        "target": "BootstrapCSS",
+        "replacement": "Bootstrap"
+      }
+    ]
+  },
   "sections": [
     {
       "title": "2024",
@@ -655,7 +682,6 @@
           "publishYear": "2020",
           "status": "maintained",
           "webLink": "https://frankkmods.com/#/mods/language-barriers",
-          "spotlightFile": "language-barriers.html",
           "summary": "Mod for The Sims 4 that adds foreign languages.",
           "tags": [
             "ts4-mod"
