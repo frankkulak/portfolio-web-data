@@ -1,5 +1,10 @@
 {
   "$schema": "../schemas/projects.schema.json",
+  "header": {
+    "homeButton": "Home",
+    "title": "Project Vault",
+    "body": "Explore all the hobby projects I've released – most are still maintained!"
+  },
   "sections": [
     {
       "title": "2024",
@@ -767,24 +772,11 @@
           "status": "retired",
           "summary": "An original puzzle game I designed back in high school.",
           "tags": [
-            "game",
-            "desktop-app"
+            "game"
           ],
           "techStack": [
             "Java",
             "Java Swing"
-          ]
-        },
-        {
-          "name": "Block Dude",
-          "publishYear": "2019",
-          "status": "retired",
-          "summary": "Minimalistic re-creation of Brandon Sterner's 'Block Dude' game from the TI-84 calculator.",
-          "tags": [
-            "game"
-          ],
-          "techStack": [
-            "Java"
           ]
         }
       ]
