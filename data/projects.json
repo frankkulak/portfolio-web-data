@@ -218,7 +218,6 @@
           ]
         },
         {
-          "featured": true,
           "name": "@s4tk Library Sandbox",
           "publishYear": "2022",
           "status": "maintained",
@@ -599,7 +598,6 @@
           ]
         },
         {
-          "featured": true,
           "name": "String Table Editor & Merger",
           "publishYear": "2021",
           "status": "archived",
