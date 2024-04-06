@@ -148,7 +148,7 @@
           ]
         },
         {
-          "name": "Sims 4 Toolkit for VS Code Docs",
+          "name": "Sims 4 Toolkit for VS Code Docs Site",
           "publishYear": "2023",
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/s4tk-vscode-web",
@@ -445,7 +445,7 @@
           ]
         },
         {
-          "name": "@s4tk Library Docs",
+          "name": "@s4tk Library Docs Site",
           "publishYear": "2022",
           "status": "maintained",
           "webLink": "https://sims4toolkit.com/",
