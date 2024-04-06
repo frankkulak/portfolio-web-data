@@ -10,13 +10,12 @@
       "title": "2024",
       "projects": [
         {
-          "featured": true,
           "name": "synced-web-settings",
           "publishYear": "2024",
           "status": "maintained",
           "repoLink": "https://github.com/frankkulak/synced-web-settings",
           "webLink": "https://www.npmjs.com/package/synced-web-settings",
-          "summary": "JavaScript package for easily and safely syncing your website settings with browser storage.",
+          "summary": "JavaScript package for easily syncing website settings with browser storage.",
           "tags": [
             "package"
           ],
@@ -53,6 +52,8 @@
           "techStack": [
             "JavaScript / TypeScript",
             "Node.js",
+            "HTML",
+            "CSS / SCSS",
             "DigitalOcean"
           ]
         },
@@ -129,11 +130,11 @@
         },
         {
           "featured": true,
-          "name": "Sims 4 Toolkit VS Code Extension",
+          "name": "Sims 4 Toolkit for VS Code",
           "publishYear": "2023",
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/s4tk-vscode",
-          "webLink": "https://vscode.sims4toolkit.com",
+          "webLink": "https://vscode.sims4toolkit.com/",
           "summary": "VS Code extension for the Sims 4 Toolkit library.",
           "tags": [
             "vscode-ext",
@@ -141,11 +142,13 @@
           ],
           "techStack": [
             "JavaScript / TypeScript",
-            "Node.js"
+            "Node.js",
+            "HTML",
+            "CSS / SCSS"
           ]
         },
         {
-          "name": "Sims 4 Toolkit VS Code Docs Site",
+          "name": "Sims 4 Toolkit for VS Code Docs",
           "publishYear": "2023",
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/s4tk-vscode-web",
@@ -159,6 +162,7 @@
             "JavaScript / TypeScript",
             "TailwindCSS",
             "CSS / SCSS",
+            "HTML",
             "Cloudflare"
           ]
         },
@@ -196,11 +200,10 @@
         },
         {
           "featured": true,
-          "name": "Sims 4 Toolkit Interactive Tutorials",
+          "name": "@s4tk Library Tutorials",
           "publishYear": "2022",
           "status": "maintained",
           "webLink": "https://sandbox.sims4toolkit.com/#/tutorials",
-          "repoLink": "https://github.com/sims4toolkit/s4tk-sandbox",
           "summary": "Website that offers interactive tutorials to teach you how to use my Sims 4 Toolkit library for Sims 4 modding.",
           "tags": [
             "website",
@@ -211,12 +214,12 @@
             "JavaScript / TypeScript",
             "TailwindCSS",
             "CSS / SCSS",
-            "Cloudflare"
+            "HTML"
           ]
         },
         {
           "featured": true,
-          "name": "Sims 4 Toolkit Sandbox",
+          "name": "@s4tk Library Sandbox",
           "publishYear": "2022",
           "status": "maintained",
           "webLink": "https://sandbox.sims4toolkit.com",
@@ -231,6 +234,7 @@
             "JavaScript / TypeScript",
             "TailwindCSS",
             "CSS / SCSS",
+            "HTML",
             "Cloudflare"
           ]
         },
@@ -238,11 +242,14 @@
           "name": "silent-dxt-js",
           "publishYear": "2022",
           "status": "maintained",
+          "webLink": "https://www.npmjs.com/package/silent-dxt-js",
+          "repoLink": "https://github.com/frankkulak/silent-dxt-js",
           "summary": "Clone of Robin Appelman's dxt.js, with a minor fix.",
           "tags": [
             "package"
           ],
           "techStack": [
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -279,16 +286,15 @@
             "JavaScript / TypeScript",
             "TailwindCSS",
             "CSS / SCSS",
+            "HTML",
             "Cloudflare"
           ]
         },
         {
-          "featured": true,
           "name": "Tuning & SimData Generator",
           "publishYear": "2022",
           "status": "archived",
           "webLink": "https://pkg.sims4toolkit.com/#/generate",
-          "repoLink": "https://github.com/sims4toolkit/pkg-viewer-web",
           "summary": "Online Sims 4 modding tool that helps generate XML and SimData files.",
           "tags": [
             "website",
@@ -299,7 +305,7 @@
             "JavaScript / TypeScript",
             "TailwindCSS",
             "CSS / SCSS",
-            "Cloudflare"
+            "HTML"
           ]
         },
         {
@@ -317,8 +323,7 @@
           ]
         },
         {
-          "featured": true,
-          "name": "Sims 4 Toolkit Discord Bot",
+          "name": "Sims 4 Toolkit Bot",
           "publishYear": "2022",
           "status": "maintained",
           "summary": "Discord bot that helps mod creators help each other.",
@@ -334,12 +339,12 @@
         },
         {
           "featured": true,
-          "name": "Sims 4 Toolkit Package Viewer",
+          "name": "Sims 4 Package Viewer",
           "publishYear": "2022",
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/pkg-viewer-web",
           "webLink": "https://pkg.sims4toolkit.com/#/view",
-          "summary": "Full-stack web app that previews Sims 4 package files and scans them for common issues.",
+          "summary": "Website that previews Sims 4 package files and scans them for common issues.",
           "tags": [
             "website",
             "ts4-tool"
@@ -349,10 +354,25 @@
             "JavaScript / TypeScript",
             "TailwindCSS",
             "CSS / SCSS",
+            "HTML",
+            "Cloudflare"
+          ]
+        },
+        {
+          "name": "Sims 4 Package Viewer Backend",
+          "publishYear": "2022",
+          "status": "maintained",
+          "summary": "Web API that supports the Sims 4 Package Viewer website.",
+          "tags": [
+            "web-api",
+            "ts4-tool"
+          ],
+          "techStack": [
+            "JavaScript / TypeScript",
             "Node.js",
             "Express",
-            "Cloudflare",
-            "DigitalOcean"
+            "DigitalOcean",
+            "Cloudflare"
           ]
         },
         {
@@ -390,9 +410,10 @@
           ]
         },
         {
-          "name": "Sims 4 Pronoun Token Fixer",
+          "name": "Pronoun Batch Fix",
           "publishYear": "2022",
           "status": "maintained",
+          "webLink": "https://stbl.sims4toolkit.com/#/tools/pronouns",
           "summary": "Web-based Sims 4 modding tool that batch fixes mods after a fundamental change to how tokens work for Sim pronouns.",
           "tags": [
             "website",
@@ -402,7 +423,8 @@
             "Svelte",
             "JavaScript / TypeScript",
             "TailwindCSS",
-            "CSS / SCSS"
+            "CSS / SCSS",
+            "HTML"
           ]
         },
         {
@@ -423,9 +445,11 @@
           ]
         },
         {
-          "name": "Sims 4 Toolkit Library Documentation",
+          "name": "@s4tk Library Docs",
           "publishYear": "2022",
           "status": "maintained",
+          "webLink": "https://sims4toolkit.com/",
+          "repoLink": "https://github.com/sims4toolkit/sims4toolkit.github.io",
           "summary": "Documentation website for the Sims 4 Toolkit Node.js library.",
           "tags": [
             "website",
@@ -434,8 +458,8 @@
           "techStack": [
             "Svelte",
             "JavaScript / TypeScript",
-            "TailwindCSS",
             "CSS / SCSS",
+            "HTML",
             "Cloudflare"
           ]
         },
@@ -526,7 +550,7 @@
         },
         {
           "featured": true,
-          "name": "Sims 4 Toolkit Library",
+          "name": "@s4tk Library",
           "publishYear": "2022",
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit",
@@ -588,7 +612,9 @@
           "techStack": [
             "Vue.js",
             "JavaScript / TypeScript",
-            "BootstrapCSS"
+            "BootstrapCSS",
+            "CSS / SCSS",
+            "HTML"
           ]
         },
         {
@@ -602,7 +628,9 @@
           "techStack": [
             "Vue.js",
             "JavaScript / TypeScript",
-            "BootstrapCSS"
+            "BootstrapCSS",
+            "CSS / SCSS",
+            "HTML"
           ]
         },
         {
@@ -709,6 +737,7 @@
             "JavaScript / TypeScript",
             "TailwindCSS",
             "CSS / SCSS",
+            "HTML",
             "Cloudflare"
           ],
           "oldTechStack": [
@@ -737,6 +766,7 @@
             "JavaScript / TypeScript",
             "TailwindCSS",
             "CSS / SCSS",
+            "HTML",
             "Cloudflare"
           ],
           "oldTechStack": [
