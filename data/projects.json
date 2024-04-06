@@ -21,7 +21,7 @@
             "package"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "npm"
           ]
         },
@@ -37,7 +37,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -51,9 +51,8 @@
             "discord-bot"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
-            "Discord API",
             "DigitalOcean"
           ]
         },
@@ -141,11 +140,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
-            "Node.js",
-            "VS Code API",
-            "HTML",
-            "CSS"
+            "JavaScript / TypeScript",
+            "Node.js"
           ]
         },
         {
@@ -160,9 +156,9 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
+            "CSS / SCSS",
             "Cloudflare"
           ]
         },
@@ -193,9 +189,8 @@
             "discord-bot"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
-            "Discord API",
             "DigitalOcean"
           ]
         },
@@ -213,9 +208,9 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
+            "CSS / SCSS",
             "Cloudflare"
           ]
         },
@@ -233,9 +228,9 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
+            "CSS / SCSS",
             "Cloudflare"
           ]
         },
@@ -248,7 +243,6 @@
             "package"
           ],
           "techStack": [
-            "JavaScript",
             "Node.js",
             "npm"
           ]
@@ -263,7 +257,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "Docker"
           ]
@@ -282,9 +276,9 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
+            "CSS / SCSS",
             "Cloudflare"
           ]
         },
@@ -302,9 +296,9 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
+            "CSS / SCSS",
             "Cloudflare"
           ]
         },
@@ -333,9 +327,9 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
-            "Discord API"
+            "DigitalOcean"
           ]
         },
         {
@@ -343,31 +337,21 @@
           "name": "Sims 4 Toolkit Package Viewer",
           "publishYear": "2022",
           "status": "maintained",
-          "summary": "Website that lets you view Sims 4 package files and scans them for common issues.",
+          "repoLink": "https://github.com/sims4toolkit/pkg-viewer-web",
+          "webLink": "https://pkg.sims4toolkit.com/#/view",
+          "summary": "Full-stack web app that previews Sims 4 package files and scans them for common issues.",
           "tags": [
             "website",
             "ts4-tool"
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
-            "Cloudflare"
-          ]
-        },
-        {
-          "name": "Sims 4 Toolkit Package Viewer Backend",
-          "publishYear": "2022",
-          "status": "maintained",
-          "summary": "Backend that supports the S4TK Package Viewer website.",
-          "tags": [
-            "web-api"
-          ],
-          "techStack": [
-            "JavaScript",
+            "CSS / SCSS",
             "Node.js",
             "Express",
+            "Cloudflare",
             "DigitalOcean"
           ]
         },
@@ -383,7 +367,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -400,7 +384,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -416,9 +400,9 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS"
+            "CSS / SCSS"
           ]
         },
         {
@@ -433,7 +417,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -449,9 +433,9 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
+            "CSS / SCSS",
             "Cloudflare"
           ]
         },
@@ -467,7 +451,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -484,7 +468,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -501,7 +485,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -518,7 +502,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -535,7 +519,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -553,7 +537,7 @@
             "ts4-tool"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
             "npm"
           ]
@@ -585,9 +569,8 @@
             "discord-bot"
           ],
           "techStack": [
-            "TypeScript",
+            "JavaScript / TypeScript",
             "Node.js",
-            "Discord API",
             "DigitalOcean"
           ]
         },
@@ -604,9 +587,7 @@
           ],
           "techStack": [
             "Vue.js",
-            "JavaScript",
-            "HTML",
-            "CSS",
+            "JavaScript / TypeScript",
             "BootstrapCSS"
           ]
         },
@@ -620,9 +601,8 @@
           ],
           "techStack": [
             "Vue.js",
-            "JavaScript",
-            "BootstrapCSS",
-            "CSS"
+            "JavaScript / TypeScript",
+            "BootstrapCSS"
           ]
         },
         {
@@ -726,14 +706,13 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
+            "CSS / SCSS",
             "Cloudflare"
           ],
           "oldTechStack": [
             "Vue.js",
-            "JavaScript",
             "BootstrapCSS"
           ]
         }
@@ -755,28 +734,14 @@
           ],
           "techStack": [
             "Svelte",
-            "TypeScript",
+            "JavaScript / TypeScript",
             "TailwindCSS",
-            "SCSS",
+            "CSS / SCSS",
             "Cloudflare"
           ],
           "oldTechStack": [
             "Vue.js",
-            "JavaScript",
             "BootstrapCSS"
-          ]
-        },
-        {
-          "name": "Blocky",
-          "publishYear": "2019",
-          "status": "retired",
-          "summary": "An original puzzle game I designed back in high school.",
-          "tags": [
-            "game"
-          ],
-          "techStack": [
-            "Java",
-            "Java Swing"
           ]
         }
       ]
