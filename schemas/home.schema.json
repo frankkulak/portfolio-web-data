@@ -172,7 +172,8 @@
               "timespan",
               "mostRecentTitle",
               "company",
-              "summary"
+              "summary",
+              "skills"
             ],
             "properties": {
               "timespan": {
@@ -223,6 +224,7 @@
               "skills": {
                 "type": "array",
                 "description": "List of skills used at this company.",
+                "minItems": 1,
                 "items": {
                   "type": "string"
                 }
