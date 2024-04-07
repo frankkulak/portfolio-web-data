@@ -264,7 +264,8 @@
       "required": [
         "navName",
         "headingName",
-        "projects"
+        "summary",
+        "dashboard"
       ],
       "properties": {
         "navName": {
@@ -275,10 +276,83 @@
           "type": "string",
           "description": "Name to display in heading for this section."
         },
-        "projects": {
-          "type": "array",
-          "description": "List of featured projects. Should be empty, as it will be populated from the projects file.",
-          "maxItems": 0
+        "summary": {
+          "type": "string",
+          "description": "Brief summary of the kinds of projects I make."
+        },
+        "dashboard": {
+          "type": "object",
+          "description": "Data to populate the project dashboard.",
+          "additionalProperties": false,
+          "required": [
+            "cells",
+            "viewAllCell"
+          ],
+          "properties": {
+            "cells": {
+              "type": "array",
+              "description": "List of cells to display on project dashboard.",
+              "minItems": 1,
+              "maxItems": 3,
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "href",
+                  "count",
+                  "title",
+                  "description",
+                  "techStack"
+                ],
+                "properties": {
+                  "href": {
+                    "type": "string",
+                    "description": "Relative link to portfolio page."
+                  },
+                  "count": {
+                    "type": "string",
+                    "description": "Large number to display in cell."
+                  },
+                  "title": {
+                    "type": "string",
+                    "description": "Title for this cell."
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "Brief description to display on cell."
+                  },
+                  "techStack": {
+                    "type": "array",
+                    "description": "List of most relevant skills used for this category of projects.",
+                    "minItems": 2,
+                    "items": {
+                      "type": "string",
+                      "maxLength": 10
+                    }
+                  }
+                }
+              }
+            },
+            "viewAllCell": {
+              "type": "object",
+              "description": "Data to populate the 'view all projects' cell.",
+              "additionalProperties": false,
+              "required": [
+                "title",
+                "description"
+              ],
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "description": "Title to display in view all cell."
+                },
+                "description": {
+                  "type": "string",
+                  "description": "Description to display in view all cell."
+                }
+              }
+            }
+          }
         }
       }
     },
