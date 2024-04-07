@@ -2,12 +2,13 @@
   "$schema": "../schemas/projects.schema.json",
   "header": {
     "homeButton": "Home",
-    "title": "Project Vault",
+    "title": "Project Portfolio",
     "body": "Explore all the hobby projects I've released – most are still maintained!"
   },
   "compactView": {
     "skillRemovals": [
-      "HTML"
+      "Cloudflare",
+      "DigitalOcean"
     ],
     "skillReplacements": [
       {
@@ -157,12 +158,13 @@
         },
         {
           "featured": true,
+          "includeInHome": true,
           "name": "Sims 4 Toolkit for VS Code",
           "publishYear": "2023",
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/s4tk-vscode",
           "webLink": "https://vscode.sims4toolkit.com/",
-          "summary": "VS Code extension for Sims 4 modding powered by the @s4tk library.",
+          "summary": "VS Code extension for Sims 4 mod development.",
           "tags": [
             "vscode-ext",
             "ts4-tool"
@@ -302,7 +304,7 @@
           "status": "maintained",
           "webLink": "https://stbl.sims4toolkit.com",
           "repoLink": "https://github.com/sims4toolkit/stbl-studio-web",
-          "summary": "Web app that helps manage text/localizations for Sims 4 mods, powered by the @s4tk library.",
+          "summary": "Web app that helps manage text/localizations for Sims 4 mods.",
           "tags": [
             "website",
             "ts4-tool"
@@ -321,7 +323,7 @@
           "publishYear": "2022",
           "status": "archived",
           "webLink": "https://pkg.sims4toolkit.com/#/generate",
-          "summary": "Sims 4 modding tool that generates XML and SimData files in bulk, powered by the @s4tk library.",
+          "summary": "Sims 4 modding tool that generates XML and SimData files in bulk.",
           "tags": [
             "website",
             "ts4-tool"
@@ -352,7 +354,7 @@
           "name": "Sims 4 Toolkit Bot",
           "publishYear": "2022",
           "status": "maintained",
-          "summary": "Bot that helps view and find issues with mods shared on Discord, powered by the @s4tk library.",
+          "summary": "Bot that helps view and find issues with mods shared on Discord.",
           "tags": [
             "discord-bot",
             "ts4-tool"
@@ -365,12 +367,13 @@
         },
         {
           "featured": true,
+          "includeInHome": true,
           "name": "Sims 4 Package Viewer",
           "publishYear": "2022",
           "status": "maintained",
           "repoLink": "https://github.com/sims4toolkit/pkg-viewer-web",
           "webLink": "https://pkg.sims4toolkit.com/#/view",
-          "summary": "Website that previews Sims 4 mods and scans them for common issues, powered by the @s4tk library.",
+          "summary": "Website that previews Sims 4 mods and scans them for common issues.",
           "tags": [
             "website",
             "ts4-tool"
@@ -576,6 +579,7 @@
         },
         {
           "featured": true,
+          "includeInHome": true,
           "name": "@s4tk Library",
           "publishYear": "2022",
           "status": "maintained",
@@ -678,6 +682,7 @@
       "projects": [
         {
           "featured": true,
+          "includeInHome": true,
           "name": "Language Barriers",
           "publishYear": "2020",
           "status": "maintained",

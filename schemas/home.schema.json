@@ -263,7 +263,8 @@
       "additionalProperties": false,
       "required": [
         "navName",
-        "headingName"
+        "headingName",
+        "projects"
       ],
       "properties": {
         "navName": {
@@ -273,6 +274,11 @@
         "headingName": {
           "type": "string",
           "description": "Name to display in heading for this section."
+        },
+        "projects": {
+          "type": "array",
+          "description": "List of featured projects. Should be empty, as it will be populated from the projects file.",
+          "maxItems": 0
         }
       }
     },

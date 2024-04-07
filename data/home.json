@@ -145,14 +145,15 @@
           "C#",
           ".NET",
           "Xamarin.Forms",
-          "HTML / CSS / JS"
+          "HTML / CSS / JavaScript"
         ]
       }
     ]
   },
   "projects": {
     "headingName": "Selected Projects",
-    "navName": "Projects"
+    "navName": "Projects",
+    "projects": []
   },
   "skills": {
     "headingName": "Skills",
