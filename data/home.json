@@ -29,7 +29,7 @@
     "content": [
       [
         {
-          "text": "Computer science has always fascinated me - from programming on my calculator in middle school, to studying mobile app development in high school, to my B.S. in Computer Science and Linguistics at "
+          "text": "Software development has always fascinated me - from programming on my calculator in middle school, to studying mobile app development in high school, to my B.S. in Computer Science and Linguistics at "
         },
         {
           "text": "Northeastern University",
@@ -48,7 +48,7 @@
           "href": "https://tjx.com/"
         },
         {
-          "text": ", where I am currently employed full-time. At TJX, I contribute to the front end of four cross-platform retail apps and various back end projects."
+          "text": ", where I am currently employed. At TJX, I contribute to the front end of four cross-platform retail apps and various back end projects."
         }
       ],
       [
@@ -101,14 +101,14 @@
     },
     "experiences": [
       {
-        "timespan": "July 2019 - Present",
+        "startDate": "July 2019",
         "company": "The TJX Companies",
         "mostRecentTitle": "Engineer II",
         "formerTitles": [
           "Engineer I",
           "IT Engineer Co-op"
         ],
-        "summary": "Develop and maintain the frontend of four cross-platform retail mobile apps utilizing Flutter. Contribute to backend initiatives, including the Digital Wallet API and our email service provider. Collaborate with team members through code reviews, pair programming, and onboarding new team members.",
+        "summary": "Develop and maintain the frontend of four cross-platform retail mobile apps utilizing Flutter. Contribute to backend initiatives, such as the Digital Wallet API and our email service provider. Collaborate with team members through code reviews, pair programming, and onboarding new team members.",
         "projects": [
           {
             "name": "T.J.Maxx iOS",

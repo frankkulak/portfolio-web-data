@@ -169,16 +169,20 @@
             "type": "object",
             "additionalProperties": false,
             "required": [
-              "timespan",
+              "startDate",
               "mostRecentTitle",
               "company",
               "summary",
               "skills"
             ],
             "properties": {
-              "timespan": {
+              "startDate": {
                 "type": "string",
-                "description": "Start to end date."
+                "description": "Month and year of start date."
+              },
+              "endDate": {
+                "type": "string",
+                "description": "Month and year of end date."
               },
               "mostRecentTitle": {
                 "type": "string",
