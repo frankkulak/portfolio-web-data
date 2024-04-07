@@ -38,17 +38,11 @@ function minifyJson(filepath, preprocess, postprocess) {
 
 const variables = {
   numPublishedProjects: 0, // count maintained/archived projects in projects.json
-  homeProjects: [], // list projects with includeInHome=true in projects.json
 };
 
 minifyJson(path.join(SRC_DIR, "projects.json"), (json) => {
   json.sections.forEach(({ projects }) => {
     projects.forEach((project) => {
-      if (project.includeInHome) {
-        delete project.includeInHome;
-        variables.homeProjects.push(project);
-      }
-
       if (project.status === "maintained" || project.status === "archived") {
         variables.numPublishedProjects++;
       }
@@ -56,16 +50,11 @@ minifyJson(path.join(SRC_DIR, "projects.json"), (json) => {
   });
 });
 
-minifyJson(
-  path.join(SRC_DIR, "home.json"),
-  (json) => {
-    json.projects.projects.push(...variables.homeProjects);
-  },
-  (content) =>
-    content.replace(
-      /{{numPublishedProjects}}/g,
-      variables.numPublishedProjects.toString()
-    )
+minifyJson(path.join(SRC_DIR, "home.json"), null, (content) =>
+  content.replace(
+    /{{numPublishedProjects}}/g,
+    variables.numPublishedProjects.toString()
+  )
 );
 
 //#endregion
