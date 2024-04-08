@@ -264,7 +264,6 @@
       "required": [
         "navName",
         "headingName",
-        "summary",
         "dashboard"
       ],
       "properties": {
@@ -286,7 +285,7 @@
           "additionalProperties": false,
           "required": [
             "cells",
-            "viewAllCell"
+            "linkCell"
           ],
           "properties": {
             "cells": {
@@ -298,17 +297,12 @@
                 "type": "object",
                 "additionalProperties": false,
                 "required": [
-                  "href",
                   "count",
                   "title",
                   "description",
                   "techStack"
                 ],
                 "properties": {
-                  "href": {
-                    "type": "string",
-                    "description": "Relative link to portfolio page."
-                  },
                   "count": {
                     "type": "string",
                     "description": "Large number to display in cell."
@@ -326,14 +320,13 @@
                     "description": "List of most relevant skills used for this category of projects.",
                     "minItems": 2,
                     "items": {
-                      "type": "string",
-                      "maxLength": 10
+                      "type": "string"
                     }
                   }
                 }
               }
             },
-            "viewAllCell": {
+            "linkCell": {
               "type": "object",
               "description": "Data to populate the 'view all projects' cell.",
               "additionalProperties": false,

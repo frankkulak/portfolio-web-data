@@ -86,7 +86,7 @@
       },
       {
         "icon": "code-slash-outline",
-        "label": "{{numPublishedProjects}} hobby projects",
+        "label": "{{numAvailableProjects}} hobby projects",
         "label2": "up and running",
         "alt": "Code"
       }
@@ -101,14 +101,14 @@
     },
     "experiences": [
       {
-        "startDate": "July 2019",
+        "startDate": "2019",
         "company": "The TJX Companies",
         "mostRecentTitle": "Engineer II",
         "formerTitles": [
           "Engineer I",
           "IT Engineer Co-op"
         ],
-        "summary": "Develop and maintain the frontend of four cross-platform retail mobile apps utilizing Flutter. Contribute to backend initiatives, such as the Digital Wallet API and our email service provider. Collaborate with team members through code reviews, pair programming, and onboarding new team members.",
+        "summary": "Develop and maintain the frontend of four cross-platform retail mobile apps utilizing Flutter and Xamarin.Forms. Contribute to backend initiatives, such as the Digital Wallet API and our email service provider. Collaborate with team members through code reviews and pair programming.",
         "projects": [
           {
             "name": "T.J.Maxx iOS",
@@ -143,20 +143,60 @@
           "Dart",
           "Flutter",
           "C#",
-          ".NET",
           "Xamarin.Forms",
-          "HTML / CSS / JavaScript"
+          ".NET",
+          "Firebase",
+          "HTML / CSS / JS"
         ]
       }
     ]
   },
   "projects": {
-    "headingName": "Selected Projects",
+    "headingName": "Personal Projects",
     "navName": "Projects",
-    "projects": []
+    "dashboard": {
+      "linkCell": {
+        "title": "View Portfolio",
+        "description": "Explore my portfolio to learn more about these and other works."
+      },
+      "cells": [
+        {
+          "count": "{{numModToolProjects}}",
+          "title": "modding tools built",
+          "description": "Sims 4 modders rely on my tools (like the Sims 4 Toolkit VS Code extension) for creating, managing, and testing their mods every day.",
+          "techStack": [
+            "TypeScript",
+            "Node.js",
+            "npm"
+          ]
+        },
+        {
+          "count": "{{numModProjects}}",
+          "title": "mods brought to life",
+          "description": "I create mods that enhance realism and intrigue in the game, such as <em>Language Barriers</em>, which introduces foreign languages.",
+          "techStack": [
+            "Python",
+            "XML"
+          ]
+        },
+        {
+          "count": "{{numWebsiteProjects}}",
+          "title": "websites deployed",
+          "description": "I develop responsive, data-driven websites (like the one you're reading now!) to pixel-perfection.",
+          "techStack": [
+            "Svelte",
+            "TypeScript",
+            "TailwindCSS",
+            "SCSS",
+            "HTML",
+            "Cloudflare"
+          ]
+        }
+      ]
+    }
   },
   "skills": {
-    "headingName": "Skills",
+    "headingName": "Technical Skills",
     "navName": "Skills",
     "categories": [
       {
