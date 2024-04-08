@@ -5,34 +5,6 @@
     "title": "Project Portfolio",
     "body": "Explore every hobby project I've released."
   },
-  "compactView": {
-    "skillRemovals": [
-      "Cloudflare",
-      "DigitalOcean"
-    ],
-    "skillReplacements": [
-      {
-        "target": "JavaScript / TypeScript",
-        "replacement": "JS / TS"
-      },
-      {
-        "target": "Node.js",
-        "replacement": "Node"
-      },
-      {
-        "target": "Vue.js",
-        "replacement": "Vue"
-      },
-      {
-        "target": "TailwindCSS",
-        "replacement": "Tailwind"
-      },
-      {
-        "target": "BootstrapCSS",
-        "replacement": "Bootstrap"
-      }
-    ]
-  },
   "sections": [
     {
       "title": "2024",
@@ -48,7 +20,7 @@
             "package"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
+            "js-ts",
             "npm"
           ]
         },
@@ -64,8 +36,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -78,11 +50,11 @@
             "discord-bot"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
-            "HTML",
-            "CSS / SCSS",
-            "DigitalOcean"
+            "js-ts",
+            "nodejs",
+            "html",
+            "css",
+            "dig-ocean"
           ]
         },
         {
@@ -95,7 +67,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python"
+            "python"
           ]
         },
         {
@@ -108,7 +80,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python"
+            "python"
           ]
         }
       ]
@@ -126,7 +98,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python"
+            "python"
           ]
         },
         {
@@ -139,7 +111,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "XML"
+            "xml"
           ]
         },
         {
@@ -152,8 +124,8 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python",
-            "XML"
+            "python",
+            "xml"
           ]
         },
         {
@@ -169,10 +141,10 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
-            "HTML",
-            "CSS / SCSS"
+            "js-ts",
+            "nodejs",
+            "html",
+            "css"
           ]
         },
         {
@@ -186,12 +158,12 @@
             "website"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML",
-            "Cloudflare"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html",
+            "cloudflare"
           ]
         },
         {
@@ -204,7 +176,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python"
+            "python"
           ]
         }
       ]
@@ -221,9 +193,9 @@
             "discord-bot"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
-            "DigitalOcean"
+            "js-ts",
+            "nodejs",
+            "dig-ocean"
           ]
         },
         {
@@ -238,11 +210,11 @@
             "ts4-tool"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html"
           ]
         },
         {
@@ -257,12 +229,12 @@
             "ts4-tool"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML",
-            "Cloudflare"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html",
+            "cloudflare"
           ]
         },
         {
@@ -276,8 +248,8 @@
             "package"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -291,9 +263,9 @@
             "ts4-mod"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
-            "Docker"
+            "js-ts",
+            "nodejs",
+            "docker"
           ]
         },
         {
@@ -309,12 +281,12 @@
             "ts4-tool"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML",
-            "Cloudflare"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html",
+            "cloudflare"
           ]
         },
         {
@@ -328,11 +300,11 @@
             "ts4-tool"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html"
           ]
         },
         {
@@ -345,8 +317,8 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python",
-            "XML"
+            "python",
+            "xml"
           ]
         },
         {
@@ -359,9 +331,9 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
-            "DigitalOcean"
+            "js-ts",
+            "nodejs",
+            "dig-ocean"
           ]
         },
         {
@@ -377,12 +349,12 @@
             "ts4-tool"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML",
-            "Cloudflare"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html",
+            "cloudflare"
           ]
         },
         {
@@ -395,11 +367,11 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
-            "Express",
-            "DigitalOcean",
-            "Cloudflare"
+            "js-ts",
+            "nodejs",
+            "express",
+            "dig-ocean",
+            "cloudflare"
           ]
         },
         {
@@ -414,8 +386,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -431,8 +403,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -447,11 +419,11 @@
             "ts4-tool"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html"
           ]
         },
         {
@@ -466,8 +438,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -483,11 +455,11 @@
             "ts4-tool"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "CSS / SCSS",
-            "HTML",
-            "Cloudflare"
+            "svelte",
+            "js-ts",
+            "css",
+            "html",
+            "cloudflare"
           ]
         },
         {
@@ -502,8 +474,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -520,8 +492,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -537,8 +509,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -554,8 +526,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -571,8 +543,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -589,8 +561,8 @@
             "ts4-tool"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
+            "js-ts",
+            "nodejs",
             "npm"
           ]
         },
@@ -604,7 +576,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python"
+            "python"
           ]
         }
       ]
@@ -621,9 +593,9 @@
             "discord-bot"
           ],
           "techStack": [
-            "JavaScript / TypeScript",
-            "Node.js",
-            "DigitalOcean"
+            "js-ts",
+            "nodejs",
+            "dig-ocean"
           ]
         },
         {
@@ -637,11 +609,11 @@
             "ts4-tool"
           ],
           "techStack": [
-            "Vue.js",
-            "JavaScript / TypeScript",
-            "BootstrapCSS",
-            "CSS / SCSS",
-            "HTML"
+            "vuejs",
+            "js-ts",
+            "bootstrap",
+            "css",
+            "html"
           ]
         },
         {
@@ -653,11 +625,11 @@
             "website"
           ],
           "techStack": [
-            "Vue.js",
-            "JavaScript / TypeScript",
-            "BootstrapCSS",
-            "CSS / SCSS",
-            "HTML"
+            "vuejs",
+            "js-ts",
+            "bootstrap",
+            "css",
+            "html"
           ]
         },
         {
@@ -670,7 +642,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python"
+            "python"
           ]
         }
       ]
@@ -689,8 +661,8 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python",
-            "XML"
+            "python",
+            "xml"
           ]
         },
         {
@@ -703,8 +675,8 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python",
-            "XML"
+            "python",
+            "xml"
           ]
         },
         {
@@ -717,8 +689,8 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python",
-            "XML"
+            "python",
+            "xml"
           ]
         },
         {
@@ -731,8 +703,8 @@
             "ts4-mod"
           ],
           "techStack": [
-            "Python",
-            "XML"
+            "python",
+            "xml"
           ]
         },
         {
@@ -744,7 +716,7 @@
             "ts4-mod"
           ],
           "techStack": [
-            "XML"
+            "xml"
           ]
         },
         {
@@ -759,16 +731,16 @@
             "website"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML",
-            "Cloudflare"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html",
+            "cloudflare"
           ],
           "oldTechStack": [
-            "Vue.js",
-            "BootstrapCSS"
+            "vuejs",
+            "bootstrap"
           ]
         }
       ]
@@ -787,16 +759,16 @@
             "website"
           ],
           "techStack": [
-            "Svelte",
-            "JavaScript / TypeScript",
-            "TailwindCSS",
-            "CSS / SCSS",
-            "HTML",
-            "Cloudflare"
+            "svelte",
+            "js-ts",
+            "tailwind",
+            "css",
+            "html",
+            "cloudflare"
           ],
           "oldTechStack": [
-            "Vue.js",
-            "BootstrapCSS"
+            "vuejs",
+            "bootstrap"
           ]
         }
       ]

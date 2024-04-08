@@ -1,8 +1,54 @@
 {
+  "definitions": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "wip",
+        "maintained",
+        "archived",
+        "retired"
+      ]
+    },
+    "tags": {
+      "type": "string",
+      "enum": [
+        "desktop-app",
+        "discord-bot",
+        "game",
+        "library",
+        "mobile-app",
+        "package",
+        "ts4-mod",
+        "ts4-tool",
+        "vscode-ext",
+        "web-api",
+        "website"
+      ]
+    },
+    "skills": {
+      "type": "string",
+      "enum": [
+        "bootstrap",
+        "dig-ocean",
+        "cloudflare",
+        "css",
+        "docker",
+        "express",
+        "html",
+        "js-ts",
+        "nodejs",
+        "npm",
+        "python",
+        "svelte",
+        "tailwind",
+        "vuejs",
+        "xml"
+      ]
+    }
+  },
   "type": "object",
   "required": [
     "sections",
-    "compactView",
     "header"
   ],
   "properties": {
@@ -27,46 +73,6 @@
         "body": {
           "type": "string",
           "description": "Text that appears under title."
-        }
-      }
-    },
-    "compactView": {
-      "type": "object",
-      "description": "Settings for the compact view.",
-      "additionalProperties": false,
-      "required": [
-        "skillRemovals",
-        "skillReplacements"
-      ],
-      "properties": {
-        "skillRemovals": {
-          "type": "array",
-          "description": "List of items to remove from the tech stack in compact view. Must be exact matches, including case.",
-          "items": {
-            "type": "string"
-          }
-        },
-        "skillReplacements": {
-          "type": "array",
-          "description": "List of replacements to run on tech stack bubbles in compact view.",
-          "items": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": [
-              "target",
-              "replacement"
-            ],
-            "properties": {
-              "target": {
-                "type": "string",
-                "description": "String to replace. Must be an exact match, including case."
-              },
-              "replacement": {
-                "type": "string",
-                "description": "String to use instead of target."
-              }
-            }
-          }
         }
       }
     },
@@ -113,14 +119,8 @@
                   "description": "Year this project was published."
                 },
                 "status": {
-                  "type": "string",
-                  "description": "Development status of this project.",
-                  "enum": [
-                    "wip",
-                    "maintained",
-                    "archived",
-                    "retired"
-                  ]
+                  "$ref": "#/definitions/status",
+                  "description": "Development status of this project."
                 },
                 "summary": {
                   "type": "string",
@@ -130,34 +130,21 @@
                   "type": "array",
                   "description": "List of tags for this project.",
                   "items": {
-                    "type": "string",
-                    "enum": [
-                      "website",
-                      "web-api",
-                      "library",
-                      "package",
-                      "ts4-mod",
-                      "ts4-tool",
-                      "discord-bot",
-                      "vscode-ext",
-                      "desktop-app",
-                      "mobile-app",
-                      "game"
-                    ]
+                    "$ref": "#/definitions/tags"
                   }
                 },
                 "techStack": {
                   "type": "array",
                   "description": "Tech stack used for this project.",
                   "items": {
-                    "type": "string"
+                    "$ref": "#/definitions/skills"
                   }
                 },
                 "oldTechStack": {
                   "type": "array",
                   "description": "Things that used to be a part of the tech stack.",
                   "items": {
-                    "type": "string"
+                    "$ref": "#/definitions/skills"
                   }
                 },
                 "repoLink": {

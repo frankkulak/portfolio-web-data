@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "required": [
+    "tags",
+    "skills"
+  ],
+  "properties": {
+    "tags": {
+      "type": "object",
+      "description": "Possible values for tags / project types.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Display name of this tag."
+          },
+          "namePlural": {
+            "type": "string",
+            "description": "Plural display name to use for this tag. If omitted, 's' is appended."
+          },
+          "nameCompact": {
+            "type": "string",
+            "description": "Compact version of the display name. If omitted, base display name is used."
+          }
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "description": "Possible values for tech stack / skills.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Display name of this technology."
+          },
+          "nameCompact": {
+            "type": "string",
+            "description": "Compact version of the display name. If omitted, base display name is used."
+          },
+          "omitFromCompact": {
+            "type": "boolean",
+            "description": "Whether this skill should be omitted in compact view."
+          }
+        }
+      }
+    }
+  }
+}
