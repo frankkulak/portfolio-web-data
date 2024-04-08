@@ -43,19 +43,25 @@
       "name": "BootstrapCSS",
       "nameCompact": "Bootstrap"
     },
-    "dig-ocean": {
-      "name": "DigitalOcean",
-      "omitFromCompact": true
-    },
     "cloudflare": {
       "name": "Cloudflare",
       "omitFromCompact": true
     },
+    "cs": {
+      "name": "C#"
+    },
     "css": {
       "name": "CSS / SCSS"
     },
+    "dig-ocean": {
+      "name": "DigitalOcean",
+      "omitFromCompact": true
+    },
     "docker": {
       "name": "Docker"
+    },
+    "dotnet": {
+      "name": ".NET"
     },
     "express": {
       "name": "Express"
@@ -66,6 +72,10 @@
     "js-ts": {
       "name": "JavaScript / TypeScript",
       "nameCompact": "JS / TS"
+    },
+    "monogame": {
+      "name": "MonoGame / XNA",
+      "nameCompact": "MonoGame"
     },
     "nodejs": {
       "name": "Node.js",

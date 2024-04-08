@@ -143,10 +143,13 @@
           "Dart",
           "Flutter",
           "C#",
-          "Xamarin.Forms",
           ".NET",
+          "Xamarin.Forms",
+          "Swift",
+          "Kotlin",
+          "HTML / CSS / JS",
           "Firebase",
-          "HTML / CSS / JS"
+          "Azure"
         ]
       }
     ]
@@ -162,7 +165,7 @@
       "cells": [
         {
           "count": "{{numModToolProjects}}",
-          "title": "modding tools built",
+          "title": "handy modding tools",
           "description": "Sims 4 modders rely on my tools (like the Sims 4 Toolkit VS Code extension) for creating, managing, and testing their mods every day.",
           "techStack": [
             "TypeScript",
@@ -172,7 +175,7 @@
         },
         {
           "count": "{{numModProjects}}",
-          "title": "mods brought to life",
+          "title": "immersive mods",
           "description": "I create mods that enhance realism and intrigue in the game, such as <em>Language Barriers</em>, which introduces foreign languages.",
           "techStack": [
             "Python",
@@ -181,7 +184,7 @@
         },
         {
           "count": "{{numWebsiteProjects}}",
-          "title": "websites deployed",
+          "title": "beautiful websites",
           "description": "I develop responsive, data-driven websites (like the one you're reading now!) to pixel-perfection.",
           "techStack": [
             "Svelte",
@@ -212,14 +215,17 @@
         ]
       },
       {
-        "category": "Programming Languages",
+        "category": "Programming & Markup Languages",
         "skills": [
           "Dart",
           "C#",
           "JavaScript / TypeScript",
           "Python",
-          "CSS / SCSS",
-          "HTML"
+          "Swift",
+          "Kotlin",
+          "Java",
+          "HTML",
+          "CSS / SCSS"
         ]
       },
       {
@@ -243,6 +249,7 @@
           "Firebase",
           "Cloudflare",
           "DigitalOcean",
+          "Azure",
           "Docker"
         ]
       }
