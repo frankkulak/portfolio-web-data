@@ -12,7 +12,8 @@
       "name": "Game"
     },
     "library": {
-      "name": "Library"
+      "name": "Library",
+      "namePlural": "Libraries"
     },
     "mobile-app": {
       "name": "Mobile Application",
