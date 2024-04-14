@@ -176,7 +176,7 @@
         {
           "count": "{{numModProjects}}",
           "title": "immersive mods",
-          "description": "I create mods that enhance realism and intrigue in the game, such as <em>Language Barriers</em>, which introduces foreign languages.",
+          "description": "I create mods that enhance realism and intrigue in The Sims 4, such as <em>Language Barriers</em>, which introduces foreign languages.",
           "techStack": [
             "Python",
             "XML"
