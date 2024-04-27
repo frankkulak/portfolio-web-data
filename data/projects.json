@@ -10,6 +10,21 @@
       "title": "2024",
       "projects": [
         {
+          "name": "binary-coding",
+          "publishYear": "2024",
+          "status": "maintained",
+          "repoLink": "https://github.com/frankkulak/binary-coding",
+          "webLink": "https://www.npmjs.com/package/binary-coding",
+          "summary": "Utilities for easily reading/writing binary data in JavaScript.",
+          "tags": [
+            "package"
+          ],
+          "techStack": [
+            "js-ts",
+            "npm"
+          ]
+        },
+        {
           "name": "synced-web-settings",
           "publishYear": "2024",
           "status": "maintained",
