@@ -10,6 +10,20 @@
       "title": "2024",
       "projects": [
         {
+          "name": "Smart Home Sync",
+          "publishYear": "2024",
+          "status": "archived",
+          "webLink": "https://www.patreon.com/posts/103667705",
+          "summary": "Mod for The Sims 4 that makes in-game objects and events affect real-world smart devices.",
+          "tags": [
+            "ts4-mod"
+          ],
+          "techStack": [
+            "python",
+            "xml"
+          ]
+        },
+        {
           "name": "binary-coding",
           "publishYear": "2024",
           "status": "maintained",
