@@ -10,6 +10,7 @@
       "title": "2024",
       "projects": [
         {
+          "featured": true,
           "name": "Smart Home Sync",
           "publishYear": "2024",
           "status": "archived",
